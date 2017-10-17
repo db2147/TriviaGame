@@ -45,7 +45,7 @@ questions[5] = {
 	aAnswer: 0
 };
 questions[6] = {
-	question:"Which act released 'Back in Black' in 1980?"
+	question:"Which act released 'Back in Black' in 1980?",
 	option: ["Van Halen", "Def Leppard", "Ozzy Osbourne", "AC/DC"],
 	aAnswer: 3
 };
