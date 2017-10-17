@@ -67,8 +67,7 @@ questions[9] = {
 
 for (var i = 0; i < questions.length; i++) {
 	 $("#questionsDiv").append( "<h3>"+questions[i].question+"</h3>" );
-	 $("#questionsDiv").append( "<ul class='form-check'>");
-	 $("#questionsDiv").append( "<li class='list-group-item list-group-item-action'>"+questions[i].option[0]+"</li>" );
+	 $("#questionsDiv").append('<label><input type="radio" name="question' + i + '" value="0">'+questions[i].option[0] + '</label></br>;
 	 $("#questionsDiv").append( "<li class='list-group-item list-group-item-action'>"+questions[i].option[1]+"</li>" );
 	 $("#questionsDiv").append( "<li class='list-group-item list-group-item-action'>"+questions[i].option[2]+"</li>" );
 	 $("#questionsDiv").append( "<li class='list-group-item <list-group-item-action></list-group-item-action'>"+questions[i].option[3]+"</li>" );
